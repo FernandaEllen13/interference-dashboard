@@ -1,0 +1,42 @@
+# Ambiente virtual
+.venv/
+venv/
+ENV/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache do pytest
+.pytest_cache/
+
+# Configs do VSCode
+.vscode/
+
+# Arquivos temporários / de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Artefatos de build
+build/
+dist/
+*.egg-info/
+
+# Dados sensíveis ou temporários
+.env
+*.env
+
+# Arquivos gerados pelo Dash ou outras libs
+*.db
+*.sqlite
+.ipynb_checkpoints/
+
+# Artefatos do GitHub Actions
+*.coverage
+coverage.xml
+htmlcov/
