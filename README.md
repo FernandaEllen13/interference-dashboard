@@ -65,13 +65,6 @@ This project includes a GitHub Actions pipeline with:
 - 📦 **Build Job**: packages the code as a `.zip`
 - 📬 **Notify Job**: sends a notification email
 
-### 🔐 GitHub Secrets
-
-Set the following secrets in **Settings > Secrets > Actions**:
-
-- `EMAIL_USER`: sender email (e.g., your Gmail)
-- `EMAIL_PASSWORD`: app password or token
-- `DEST_EMAIL`: recipient email
 
 ## 📁 Project Structure
 
